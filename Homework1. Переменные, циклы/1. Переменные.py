@@ -1,14 +1,14 @@
 a = input('Введите ваше имя: ')
-print('Привет,', a, '!')
+print(f'Привет, {a}!')
 b = input('Введите вашу должность: ')
-print('Отлично,', b, '!')
-First_Variable = 2
-Second_Variable = First_Variable
-Third_Variable = First_Variable * Second_Variable
-print('Первое значение', Third_Variable)
-Fourth_Variable = int(input('Введите второе значение: '))
-Fifth_Variable = Fourth_Variable + Third_Variable
-print('Результат сложения первого и второго значения', Fifth_Variable)
-Sixth_Variable = int(input('Коэффициент: '))
-Seventh_Variable = Sixth_Variable * Fifth_Variable
-print('Конечное значение', Seventh_Variable)
+print(f'Отлично, {b}!')
+First_variable = 2
+second_variable = First_variable
+third_variable = First_variable * second_variable
+print(f'Первое значение: {third_variable}')
+fourth_variable = int(input('Введите второе значение: '))
+fifth_variable = fourth_variable + third_variable
+print(f'Результат сложения первого и второго значения: {fifth_variable}')
+sixth_variable = int(input('Коэффициент: '))
+seventh_variable = sixth_variable * fifth_variable
+print(f'Конечное значение: {seventh_variable}')
